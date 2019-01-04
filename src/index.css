@@ -12,3 +12,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  padding: 0 20px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  
+}
+
+tbody tr {
+  border-top: 1px solid #ddd;
+}
+
+tbody tr:last-child {
+  border-bottom: 1px solid #ddd;
+}
+
+button {
+  background: #3670f6;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+th, td {
+  padding: 8px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+label + input {
+  width: 200px;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+form button {
+  display: block;
+  margin: 10px 0;
+}
+
+
